@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #ececec, #0784b6);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    padding: 0; 
+}
+
+.bg-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(0.5);
+}
+
+.container {
+    max-width: 600px;
+    margin: 0; 
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.651);
+    position: relative;
+    padding-top: 15px;
+}
+
+h2 {
+    text-align: center;
+    color: #0077cc;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"], input[type="number"], select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 25px;
+    width: 100%;
+    background-color: #0784b6;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #033580;
+}
+
+.result {
+    margin-top: 30px;
+    background: #f1faff;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 5px solid #0077cc;
+}
+
+.btn-kembali {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #ff0000;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.btn-kembali:hover {
+    background-color: #c50d0d;
+}
